@@ -1,5 +1,15 @@
 # Study-Buddy Focus Lamp 
 
+---
+
+# Group Members
+Ayesha Zelene Faeyza - 2406359166
+Vanesa Kayla Zahra - 2306161901
+Eugenia Huwaida Imtinan - 2406421384
+Diandra Pramesti Wicaksono - 2406342360
+
+---
+
 A smart desktop companion designed to enhance productivity and eye comfort for students.
 
 ## 1. Introduction
