@@ -19,16 +19,15 @@ Study-Buddy Focus Lamp merupakan sistem smart desk lamp berbasis mikrokontroler 
 <summary><b>Table of Contents</b></summary>
 
 <br>
+1. [Introduction](#1-introduction)
 
-- [Introduction](#1-introduction)
+2. [Hardware Design and Implementation](#2-hardware-design-and-implementation)
 
-- [Hardware Design and Implementation](#2-hardware-design-and-implementation)
+3. [Software Implementation](#3-software-implementation)
 
-- [Software Implementation](#3-software-implementation)
+4. [Testing and Performance Evaluation](#4-testing-and-performance-evaluation)
 
-- [Testing and Performance Evaluation](#4-testing-and-performance-evaluation)
-
-- [Conclusion and Future Work](#5-conclusion-and-future-work)
+5. [Conclusion and Future Work](#5-conclusion-and-future-work)
 
 </details>
 
