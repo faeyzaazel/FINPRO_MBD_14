@@ -4,10 +4,6 @@
 Study-Buddy Focus Lamp merupakan sistem smart desk lamp berbasis mikrokontroler ATmega328P yang diprogram menggunakan AVR Assembly. Sistem ini dirancang untuk meningkatkan produktivitas belajar melalui integrasi fitur auto-dimming dan Pomodoro Timer.
 </p>
 
-<p align="center">
-Intensitas cahaya LED akan menyesuaikan kondisi pencahayaan lingkungan secara otomatis menggunakan sensor LDR untuk menjaga kenyamanan mata pengguna. Selain itu, sistem dilengkapi buzzer dan push button berbasis interrupt sebagai pengingat pergantian sesi fokus dan istirahat.
-</p>
-
 ---
 
 # Group Members
