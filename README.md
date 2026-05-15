@@ -1,7 +1,12 @@
-# STUDY-BUDDY FOCUS LAMP  
-*Sebuah smart desk lamp yang dirancang untuk meningkatkan produktivitas, fokus, dan kenyamanan mata mahasiswa saat belajar.*
+<h1 align="center">STUDY-BUDDY FOCUS LAMP</h1>
 
-Explore our docs » | Our Presentation »
+<p align="center">
+Study-Buddy Focus Lamp merupakan sistem smart desk lamp berbasis mikrokontroler ATmega328P yang diprogram menggunakan AVR Assembly. Sistem ini dirancang untuk meningkatkan produktivitas belajar melalui integrasi fitur auto-dimming dan Pomodoro Timer.
+</p>
+
+<p align="center">
+Intensitas cahaya LED akan menyesuaikan kondisi pencahayaan lingkungan secara otomatis menggunakan sensor LDR untuk menjaga kenyamanan mata pengguna. Selain itu, sistem dilengkapi buzzer dan push button berbasis interrupt sebagai pengingat pergantian sesi fokus dan istirahat.
+</p>
 
 ---
 
@@ -42,8 +47,6 @@ Selain itu, mahasiswa juga sering kehilangan kontrol terhadap waktu belajar dan 
 
 Perkembangan teknologi embedded system dan mikrokontroler memungkinkan pengembangan smart desk lamp yang dapat menyesuaikan tingkat kecerahan secara dinamis sekaligus mengintegrasikan fitur manajemen waktu berbasis metode Pomodoro.
 
----
-
 ## 1.2 Proposed Solution
 Pada proyek ini, kami merancang **Study-Buddy Focus Lamp**, sebuah sistem smart lamp berbasis mikrokontroler ATmega328P yang diprogram sepenuhnya menggunakan bahasa AVR Assembly.
 
@@ -73,8 +76,6 @@ Fitur Pomodoro diimplementasikan menggunakan timer dan interrupt eksternal melal
 
 Secara keseluruhan, sistem dirancang untuk bekerja secara otomatis namun tetap mendukung interaksi pengguna melalui mekanisme interrupt.
 
----
-
 ## 2.2 Wiring Table
 
 | Komponen | Kaki / Pin Komponen | Sambungan ke Arduino | Keterangan |
@@ -87,8 +88,6 @@ Secara keseluruhan, sistem dirancang untuk bekerja secara otomatis namun tetap m
 |  | Terminal 2 | GND | Pull-up internal aktif di kode |
 | **LDR (Sensor)** | Kaki 1 | 5V | |
 |  | Kaki 2 | Analog Pin A0 (ADC0) | Terhubung juga ke resistor 10kΩ menuju GND (voltage divider) |
-
----
 
 ## 2.3 Components List
 
@@ -110,8 +109,6 @@ Software dikembangkan sepenuhnya menggunakan bahasa AVR Assembly untuk mendapatk
 Beberapa modul peripheral AVR yang digunakan dalam sistem meliputi ADC, PWM, Timer, Interrupt, dan Basic I/O. Seluruh peripheral tersebut bekerja bersama untuk menyediakan kontrol pencahayaan adaptif dan dukungan produktivitas berbasis Pomodoro.
 
 Program secara terus-menerus membaca intensitas cahaya menggunakan modul ADC dan memetakan nilai sensor menjadi duty cycle PWM untuk menghasilkan perubahan kecerahan LED yang halus. Secara bersamaan, timer dan interrupt digunakan untuk mengatur perpindahan fase Pomodoro dan notifikasi buzzer.
-
----
 
 ## 3.2 Key Functions
 
@@ -156,8 +153,6 @@ Pengujian difokuskan pada:
 - Aktivasi buzzer saat pergantian fase
 - Stabilitas program Assembly selama sistem berjalan
 
----
-
 ## 4.2 Results
 Berdasarkan proses pengujian, sistem berhasil memenuhi tujuan utama proyek.
 
@@ -168,8 +163,6 @@ Logika auto-dimming berjalan sesuai harapan, dimana LED akan semakin terang keti
 Push button yang terhubung melalui INT0 berhasil melakukan perpindahan fase Pomodoro, sedangkan buzzer memberikan notifikasi suara dengan baik saat terjadi pergantian sesi fokus dan istirahat.
 
 Secara keseluruhan, sistem menunjukkan performa yang stabil dan efisien selama pengujian berlangsung.
-
----
 
 ## 4.3 Performance Evaluation
 Evaluasi performa proyek embedded system ini dapat dilihat dari proses pengembangan maupun hasil implementasi akhir.
@@ -188,8 +181,6 @@ Dari sisi implementasi, proyek berhasil mencapai tujuan utama yaitu menciptakan 
 Sistem ini menunjukkan bagaimana embedded system dapat digunakan untuk meningkatkan kenyamanan dan produktivitas pengguna melalui pemanfaatan peripheral ADC, PWM, Timer, dan Interrupt secara efisien. Mekanisme auto-dimming dan fitur Pomodoro yang diimplementasikan juga berjalan dengan stabil selama proses pengujian.
 
 Proyek ini berhasil memenuhi tujuan utama proyek akhir Sistem Embedded sekaligus memberikan implementasi yang relevan untuk kebutuhan belajar mahasiswa.
-
----
 
 ## 5.2 Future Work
 
