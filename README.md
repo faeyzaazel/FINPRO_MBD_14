@@ -72,20 +72,44 @@ Fitur Pomodoro diimplementasikan menggunakan timer dan interrupt eksternal melal
 
 Secara keseluruhan, sistem dirancang untuk bekerja secara otomatis namun tetap mendukung interaksi pengguna melalui mekanisme interrupt.
 
-## 2.2 Wiring Table
+---
+
+## 2.2 Circuit Design
+
+### Physical Hardware Implementation
+
+<p align="center">
+  <img width="470" height="264" alt="Screenshot 2026-05-17 at 18 28 32" src="https://github.com/user-attachments/assets/766197e5-ebef-4189-835c-fe6f28a50765" />
+</p>
+
+Gambar di atas menunjukkan implementasi rangkaian fisik Study-Buddy Focus Lamp menggunakan Arduino Uno, sensor LDR, LED, push button, dan buzzer pada breadboard.
+
+### Proteus Simulation Design
+
+<p align="center">
+  ![Uploading Screenshot 2026-05-17 at 18.29.03.png…]()
+</p>
+
+Gambar di atas menunjukkan desain rangkaian menggunakan Proteus yang digunakan untuk simulasi dan verifikasi sistem sebelum implementasi hardware dilakukan.
+
+---
+
+## 2.3 Wiring Table
 
 | Komponen | Kaki / Pin Komponen | Sambungan ke Arduino | Keterangan |
 |---|---|---|---|
 | **Buzzer** | Kaki Positif (+) | Digital Pin 13 | Output suara alarm Pomodoro |
-|  | Kaki Negatif (-) | GND | |
+| | Kaki Negatif (-) | GND | |
 | **LED** | Kaki Positif (Anoda) | Digital Pin 11 | Output PWM (kecerahan otomatis) |
-|  | Kaki Negatif (Katoda) | GND (lewat Resistor 220Ω) | |
+| | Kaki Negatif (Katoda) | GND (lewat resistor 220Ω) | |
 | **Push Button** | Terminal 1 | Digital Pin 2 (INT0) | Input interrupt untuk toggle fase 25s/5s |
-|  | Terminal 2 | GND | Pull-up internal aktif di kode |
+| | Terminal 2 | GND | Pull-up internal aktif pada kode |
 | **LDR (Sensor)** | Kaki 1 | 5V | |
-|  | Kaki 2 | Analog Pin A0 (ADC0) | Terhubung juga ke resistor 10kΩ menuju GND (voltage divider) |
+| | Kaki 2 | Analog Pin A0 (ADC0) | Terhubung juga ke resistor 10kΩ menuju GND (voltage divider) |
 
-## 2.3 Components List
+---
+
+## 2.4 Components List
 
 - 1x Arduino Uno R3 (ATmega328P)
 - 1x Push Button (Tactile Switch)
