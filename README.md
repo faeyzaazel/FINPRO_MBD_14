@@ -79,7 +79,7 @@ Secara keseluruhan, sistem dirancang untuk bekerja secara otomatis namun tetap m
 ### Physical Hardware Implementation
 
 <p align="center">
-  <img width="470" height="264" alt="Screenshot 2026-05-17 at 18 28 32" src="https://github.com/user-attachments/assets/766197e5-ebef-4189-835c-fe6f28a50765" />
+  <img src="https://github.com/user-attachments/assets/766197e5-ebef-4189-835c-fe6f28a50765" width="75%">
 </p>
 
 Gambar di atas menunjukkan implementasi rangkaian fisik Study-Buddy Focus Lamp menggunakan Arduino Uno, sensor LDR, LED, push button, dan buzzer pada breadboard.
@@ -87,7 +87,7 @@ Gambar di atas menunjukkan implementasi rangkaian fisik Study-Buddy Focus Lamp m
 ### Proteus Simulation Design
 
 <p align="center">
-  ![Uploading Screenshot 2026-05-17 at 18.29.03.png…]()
+  <img src="https://github.com/user-attachments/assets/01f09bf3-0019-4af8-bdd9-22185def0fc6" width="75%">
 </p>
 
 Gambar di atas menunjukkan desain rangkaian menggunakan Proteus yang digunakan untuk simulasi dan verifikasi sistem sebelum implementasi hardware dilakukan.
